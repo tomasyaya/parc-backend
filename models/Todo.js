@@ -10,6 +10,9 @@ let Todo = new Schema({
   },
   done: {
     type: Boolean
+  },
+  key: {
+    type: String
   }
 },{ timestamps: true }
 );
